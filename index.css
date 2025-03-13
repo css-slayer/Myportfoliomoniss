@@ -1,0 +1,139 @@
+/* NAVBAR */
+section:not(:first-of-type) {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: underline;
+}
+a:hover{
+    color:brown;
+}
+
+.navbar {
+    background-color: rgb(237, 192, 192);
+}
+
+.navbar-nav .navlink-nav {
+    background-color: rgb(114, 99, 99);
+    color: black;
+    font-size: 2rem;
+}
+
+@media screen and (min-width:1024px) {
+
+
+    .navbar-nav .nav-item {
+        padding: 0.1rem;
+
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+}
+/*BODY*/
+body {
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb); /* Light blue gradient */
+}
+
+/* Hero */
+section.hero {
+    background-color: rgb(236, 203, 162);
+    padding: 72px;
+}
+
+@media screen and (min-width:576pxpx) {
+    section.hero {
+        text-align: center;
+    }
+
+    section.hero img {
+        width: 70%;
+
+    }
+}
+
+/*SERVICES*/
+section.services i {
+    background-color: aqua;
+    font-size: 2rem;
+    margin: 1rem auto 0;
+    border: 2px solid black;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section .card {
+    border: 2px solid black;
+    box-shadow: 1rem 1rem black;
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
+/*ABOUT*/
+@media screen and (min-width:1024px) {
+    section.about .conatiner {
+        width: 60%;
+    }
+}
+
+/*Certifications*/
+section.Certifications i {
+    background-color: aqua;
+    font-size: 2rem;
+    margin: 1rem auto 0;
+    border: 2px solid black;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.Certifications .card {
+    border: 2px solid black;
+    box-shadow: 1rem 1rem black;
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
+.card-link {
+    color: black;
+    text-decoration: none;
+    /* Optional: Removes underline */
+}
+
+.card-link:hover {
+    color: #333;
+    /* Optional: Slightly darker shade on hover for better UX */
+    text-decoration: underline;
+    /* Optional: Adds underline on hover */
+}
+/*PROJECTS*/
+section.projects .card{
+    
+    border: 2px solid black;
+    box-shadow: 1rem 1rem black;
+    max-width: 22rem;
+    margin-inline: auto; 
+
+
+}
+/*CONTACTS*/
+section.contacts .social-media a{
+
+        text-align: center;
+        margin-top: 20px;
+    
+    
+        font-size: 20px;
+        margin: 0 10px;
+    }
+    
